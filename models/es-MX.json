@@ -1,0 +1,127 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "dólar hoy",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetCurrencyPriceIntent",
+                    "slots": [],
+                    "samples": [
+                        "actualiza",
+                        "cuanto es",
+                        "cuanto es en pesos",
+                        "tipo de cambio",
+                        "precio del dolar",
+                        "precio de el dolar",
+                        "a cuanto el dolar",
+                        "a cuanto esta el dolar",
+                        "a cuanto esta el dolar hoy",
+                        "a cuanto está el dolar hoy",
+                        "a cuanto está el dolar",
+                        "cuanto está hoy",
+                        "dime a cuanto está",
+                        "di a cuanto está",
+                        "pon a cuanto está",
+                        "dime en cuanto está",
+                        "dame en cuanto está",
+                        "pon en cuanto está",
+                        "da en cuanto está",
+                        "poner en cuanto está",
+                        "dar en cuanto está",
+                        "decir en cuanto está",
+                        "me puedes decir en cuanto está",
+                        "el precio del dolar",
+                        "el precio de el dolar",
+                        "repitemelo",
+                        "repitelo",
+                        "dilo de nuevo",
+                        "hoy",
+                        "cuanto esta hoy",
+                        "el dolar hoy",
+                        "dime el cambio",
+                        "dame el cambio",
+                        "pon el cambio",
+                        "da el cambio",
+                        "poner el cambio",
+                        "dar el cambio",
+                        "decir el cambio",
+                        "me puedes decir el cambio hoy",
+                        "el dolar",
+                        "hola",
+                        "di",
+                        "dime",
+                        "dimelo",
+                        "dilo",
+                        "conviertelo",
+                        "dime en cuanto esta",
+                        "dame en cuanto esta",
+                        "pon en cuanto esta",
+                        "da en cuanto esta",
+                        "poner en cuanto esta",
+                        "dar en cuanto esta",
+                        "decir en cuanto esta",
+                        "me puedes decir en cuanto esta",
+                        "dime el precio del dolar",
+                        "dime el precio de el dolar",
+                        "dame el precio del dolar",
+                        "dame el precio de el dolar",
+                        "pon el precio del dolar",
+                        "pon el precio de el dolar",
+                        "da el precio del dolar",
+                        "da el precio de el dolar",
+                        "poner el precio del dolar",
+                        "poner el precio de el dolar",
+                        "dar el precio del dolar",
+                        "dar el precio de el dolar",
+                        "decir el precio del dolar",
+                        "decir el precio de el dolar",
+                        "dime el precio del dólar",
+                        "dime el precio de el dólar",
+                        "dame el precio del dólar",
+                        "dame el precio de el dólar",
+                        "pon el precio del dólar",
+                        "pon el precio de el dólar",
+                        "da el precio del dólar",
+                        "da el precio de el dólar",
+                        "poner el precio del dólar",
+                        "poner el precio de el dólar",
+                        "dar el precio del dólar",
+                        "dar el precio de el dólar",
+                        "decir el precio del dólar",
+                        "decir el precio de el dólar"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "simon",
+                        "si"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "nel"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

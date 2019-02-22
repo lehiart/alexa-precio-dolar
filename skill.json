@@ -1,0 +1,61 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "alexa-precio-dolar",
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "es-MX": {
+          "name": "Precio del dólar",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9280/fdc33d5dce9d44be9a4d95dcba4ebe43/APP_ICON?versionId=noNy9hWoE1gxu4Lp.UuSf5DuMjKwnAAp&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1550883434&Signature=V2hXN1%2BzaS%2Bn6W%2B3ONGv27EAXFo%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/fa8b/bb28e060cd324817a007d4dcfb5964c3/APP_ICON_LARGE?versionId=pBezUBDDrhB1a131L_MZOdjEJzE8TGic&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1550883434&Signature=Sr%2FzMBCABmuIU0lDohn8E8EcayQ%3D",
+          "summary": "Recibe el precio del dólar en tiempo real",
+          "description": "Precio del dólar actualizado en pesos mexicanos (MXN)\n\nSi necesitas ayuda, di: << Ayuda >> para escuchar las opciones.\n\nEl precio está en constante actualización cada determinados minutos.",
+          "examplePhrases": [
+            "Alexa, abre dólar hoy",
+            "Alexa, abre dólar hoy y dime en cuánto está",
+            "Ayuda"
+          ],
+          "keywords": [
+            "dolar",
+            "peso",
+            "conversor",
+            "unidades",
+            "currency",
+            "moneda",
+            "unidad",
+            "mxn",
+            "usd",
+            "mexico",
+            "mexicano",
+            "cambio",
+            "tipo",
+            "de",
+            "cambio",
+            "centavos",
+            "pesos",
+            "dolares"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "<<Alexa, abre dólar hoy>>\n<<Alexa, repitelo>>\n\nto receive the currency value",
+      "category": "UNIT_CONVERTERS",
+      "distributionCountries": []
+    }
+  }
+}
+ 
